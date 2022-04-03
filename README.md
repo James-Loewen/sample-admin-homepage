@@ -6,4 +6,4 @@ Instead of following the provided sample design to the pixel, I am going to crea
 
 Some of the **Sidebar** links can be specifiers like *Region*, *Difficulty* or *Multi-day*.
 
-The **Article Cards** can be links to Caltopo routes I've already mapped out and the **Trending** section could be links to the about pages for different hiking challenges (e.g., *Catskills 35* or *ADK 46*).
+The **Article Cards** can be links to [Caltopo](https://caltopo.com/) routes I've already mapped out and the **Trending** section could be links to the about pages for different hiking challenges (e.g., *Catskills 35* or *ADK 46*).
