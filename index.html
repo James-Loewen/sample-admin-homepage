@@ -2,18 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Take a Hike!</title>
 </head>
 <body>
   <div class="container">
 
     <div class="header">
+
+      <div class="top">
+        <img id="search-icon" src="icons/magnify.svg" alt="search icon">
+        <input type="text" id="search-bar">
+        <img src="icons/bell-ring-outline.svg" alt="subscribe icon">
+        <img src="icons/account-circle-outline.svg" alt="profile avatar icon">
+        <span id="username" class="username">James Loewen</span>
+      </div>
+
+      <div class="bottom">
+        <img src="icons/account-circle-outline-large.svg" alt="profile avatar icon">
+        <div class="user-description">
+          <span id="title">Owner</span>
+          <span id="introduction">James Loewen (@jfloewen)</span>
+        </div>
+        <div class="buttons">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+      
     </div>
 
     <div class="sidebar">
+
+      <div class="dashboard-item extra-gap">
+        <img id="dash-svg" src="icons/dashboard.svg" alt="dashboard logo">
+        <span id="dashboard">Dashboard</span>
+      </div>
+      <div class="dashboard-item">
+        <img src="icons/map-marker.svg" alt="Map marker logo" id="marker-svg">
+        <span id="region" class="sidebar-subheading">Region</span>
+      </div>
+      <div class="dashboard-item">
+        <img src="icons/speedometer.svg" alt="Speedometer icon" id="meter">
+        <span id="difficulty" class="sidebar-subheading">Difficulty</span>
+      </div>
+      <div class="dashboard-item">
+        <img src="icons/calendar.svg" alt="Calendar icon" id="calendar">
+        <span id="multi-day" class="sidebar-subheading">Multi-day</span>
+      </div>
     </div>
 
     <div class="article">
+      <div class="card-container">
+        <span id="card-label" class="label">Hikes!</span>
+        <div class="card">
+          <span>Card Title 1</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio quos libero distinctio. Qui cum asperiores quam alias magnam debitis corporis non culpa obcaecati quae.</p>
+        </div>
+        <div class="card">
+          <span>Card Title 2</span>
+          <p>Maiores aliquam vero eius quia quae beatae tenetur perferendis voluptate minima! Beatae fuga impedit velit error blanditiis deserunt, sapiente obcaecati asperiores eum fugit maxime ex?</p>
+        </div>
+        <div class="card">
+          <span>Card Title 3</span>
+          <p>Quisquam obcaecati dolor distinctio soluta hic quidem est, doloribus perspiciatis laborum commodi. Vero laborum tenetur aperiam provident explicabo delectus deleniti vel illo, suscipit illum commodi?</p>
+        </div>
+        <div class="card">
+          <span>Card Title 4</span>
+          <p>Quisquam sequi ipsum, dolorem ducimus unde numquam expedita odio, cupiditate natus accusantium ea cumque distinctio nostrum laborum tempora esse iure placeat minus possimus aperiam blanditiis?</p>
+        </div>
+        <div class="card">
+          <span>Card Title 5</span>
+          <p>Mollitia similique debitis vitae quas iste ex ratione placeat, in vero voluptatibus. Quod quidem placeat error suscipit laborum praesentium recusandae. Non molestiae aliquid cumque fugit!</p>
+        </div>
+        <div class="card">
+          <span>Card Title 6</span>
+          <p>Inventore delectus illo aspernatur earum, veritatis quibusdam sint, illum molestiae facere aliquam maxime rem dolores tenetur quae assumenda quas sunt dolorem. Beatae quas unde quis.</p>
+        </div>
+      </div>
+      <div class="announcements">
+        <span id="announce-label" class="label">Announcements</span>
+        <div class="card"></div>
+      </div>
+      <div class="trending">
+        <span id="trending" class="label">Trending</span>
+        <div class="card"></div>
+      </div>
     </div>
 
   </div>
